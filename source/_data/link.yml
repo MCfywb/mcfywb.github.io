@@ -1,0 +1,10 @@
+- class_name: 好友
+  flink_style: flexcard
+  hundredSuffix: ""
+  link_list:
+    - name: TheBUG_MUXI
+      link: https://www.thebugmuxi.xyz/
+      avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2647951600&spec=640&img_type=jpg
+      descr: 一次不公正的审判比十次犯罪所造成的危害还要严重
+      siteshot: https://pic.huang1111.cn/f/659dil/screenshot-1777488082989.png
+      recommend: true
