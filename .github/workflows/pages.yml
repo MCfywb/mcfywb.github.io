@@ -30,6 +30,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
              npm install hexo-renderer-pug hexo-renderer-stylus --save
+             npm install hexo-butterfly-envelope --save
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
