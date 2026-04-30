@@ -1,0 +1,92 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 跟 MC风月无边 一起享受科技带来的乐趣
+  top_background: https://img.mcfywb.top/www/equipment/vlcsnap-2026-04-30-15h12m44s608.png
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: Legion Y7000P IRX9 (2024款)
+          specification: i7-14650HX+RTX 4050 / 16G+1T / 月蚀灰
+          description: 嗯，对，就是个普普通通的游戏本。我至今都不知道为什么我会选择了一个4050版本的。
+          image: https://img.mcfywb.top/www/equipment/2024010816103186853838020.png
+          link: https://item.lenovo.com.cn/product/1046448.html
+        - name: vivo Pad
+          specification: 骁龙870 / 8G+128G / 天蓝色
+          description: 至少陪我度过了崩铁开服的版本,毕竟是我妈从闲鱼淘的二手机。
+          image: https://img.mcfywb.top/www/equipment/ceVmFGvDXCrU.jpg
+          link: https://www.vivo.com.cn/vivo/vivopad
+        - name: iQOO Neo9S Pro
+          specification: 天玑9300+ / 16G+512G / 红白魂
+          description: 续航很崩，完事还被Pro+背刺。买512是为了打游戏，结果上了大学把手游戒了。
+          image: https://img.mcfywb.top/www/equipment/10009716_1715757334068_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/iqooneo9spro
+    - title: 可穿戴设备
+      description: 就是耳机和手表
+      equipment_list:
+        - name: vivo TWS 3i
+          specification: 墨蓝
+          description: 性价比不高，单纯因为便宜，和vivo家的。
+          image: https://img.mcfywb.top/www/equipment/10009874_1728465813651_1080x1080.png
+          link: https://shop.vivo.com.cn/product/10009874
+        - name: vivo WATCH 3
+          specification: 蓝牙版 / 月光白 / 软胶
+          description: 因为其它配件都是vivo的，所以手表也选了vivo。而且懒的装其他家的健康软件。
+          image: https://img.mcfywb.top/www/equipment/10009063_1699615142960_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/vivowatch3
+    - title: 外设
+      description: 打游戏用的设备
+      equipment_list:
+        - name: vivo XE160
+          specification: 3.5mm接口
+          description: 嗯，不知道哪年买手机送的耳机，一直用着，能听脚步就行。
+          image: https://img.mcfywb.top/www/equipment/10689_1693986719111_1080x1080.png
+          link: https://shop.vivo.com.cn/product/10689?skuId=118459
+        - name: VALKYRIE M1
+          specification: 8K / MERLIN
+          description: 2024年暑假在ChinaJoy的AMD展台参加活动抽到的。AMD YES!
+          image: https://img.mcfywb.top/www/equipment/64a5d03a63a853ce.jpg.avif
+          link: https://item.jd.com/10093007487050.html
+        - name: AULA F87 Pro
+          specification: 落日海岸
+          description: 高中的好兄弟送我的18岁生日礼物。但是我用不习惯机械键盘的手感，所以一直放着吃灰。
+          image: https://img.mcfywb.top/www/equipment/vOK1775032005HridVv.jpg
+          link: https://www.aulacn.com/index/index/product?goods_id=96
+    - title: 以前的设备
+      description: 
+      equipment_list:
+        - name: Lenovo A3860
+          specification: 联发科 MT6735P / 1G+8G
+          description: 2015年我妈充话费送的手机，就给我用了，一直用到2019年。
+          image: https://img.mcfywb.top/www/equipment/ceSKVkACQfWAw.jpg
+          link: https://item.lenovo.com.cn/product/51693.html
+        - name: vivo V3
+          specification: 骁龙616 / 3G+16G / 香槟金
+          description: 我妈在2016年买的手机，然后2019年这个手机就给我用了。可惜现在见不到这么小屏的手机，还耐用。2020年因为电池发烫原因扔掉了。
+          image: https://img.mcfywb.top/www/equipment/4069_1465799043907_530x530.png
+          link: https://shop.vivo.com.cn/product/9920
+        - name: vivo Y3
+          specification: 联发科 MT6765 / 4G+64G / 暗夜蓝
+          description: 2020年暑假换的手机。这个手机见证了我和平精英打的最厉害的时候，甚至是顶着24帧玩的。
+          image: https://img.mcfywb.top/www/equipment/10005906_1608877239014_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/y3
+        - name: vivo S9
+          specification: 天玑1100 / 8G+256G / 子夜蓝
+          description: 上高中换的手机。高一上偷玩被收了，高一结束拿回来。后面一直当备用机在用。
+          image: https://img.mcfywb.top/www/equipment/10006277_1619365761492_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/s9
+        - name: iQOO Z5x
+          specification: 天玑900 / 8G+256G / 雾海白
+          description: vivo S9被收后用的手机。高二上也被收过一段时间，后来黄浩偷回来了，借他玩了一个学期。拿回来后作为主力机用，续航很好。
+          image: https://img.mcfywb.top/www/equipment/10006909_1634538978254_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/iqooz5x
+        - name: vivo TWS Air
+          specification: 元气白
+          description: 高二合格考的时候买的耳机，一直用到大一寒假，跟朋友出去打台球忘在了店里，后面再去找就没了。
+          image: https://img.mcfywb.top/www/equipment/10007427_1652764769221_1080x1080.png
+          link: https://www.vivo.com.cn/vivo/twsair
+        - name: iQOO TWS 1e
+          specification: 星珠黄
+          description: 这个耳机只用了一个月，然后在看电影的时候落在电影院也找不到了。（os：我真牛逼，连续两个月掉两个耳机）
+          image: https://img.mcfywb.top/www/equipment/10009286_1702631065572_1080x1080.png
+          link: https://shop.vivo.com.cn/product/10009286
