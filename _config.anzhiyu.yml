@@ -1346,7 +1346,7 @@ CDN:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://pic.huang1111.cn/f/DldPiD/20260428_092344.jpg #信笺头部图片
+    cover: https://img.mcfywb.top/www/comments/20260428_092344.jpg #信笺头部图片
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
