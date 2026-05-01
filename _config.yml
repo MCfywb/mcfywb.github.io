@@ -102,3 +102,18 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 追番插件
+# https://github.com/HCLonely/hexo-bilibili-bangumi
+bangumi: # 追番设置
+  enable: true
+  source: bili
+  vmid: 432245733
+  title: "追番列表"
+  quote: "生命不息，追番不止！"
+  show: 2
+  lazyload: true
+  webp: true
+  progress: true
+  progressBar: true
+  pagination: false
