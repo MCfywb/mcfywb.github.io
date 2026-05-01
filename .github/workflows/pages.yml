@@ -33,7 +33,7 @@ jobs:
              npm install hexo-butterfly-envelope --save
              npm install hexo-bilibili-bangumi --save
       - name: bangumi
-        run: hexo bangumi -u
+        run: npx hexo bangumi -u
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
