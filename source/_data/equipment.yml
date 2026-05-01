@@ -13,12 +13,12 @@
           link: https://item.lenovo.com.cn/product/1046448.html
         - name: vivo Pad
           specification: 骁龙870 / 8G+128G / 天蓝色
-          description: 至少陪我度过了崩铁开服的版本,毕竟是我妈从闲鱼淘的二手机。
+          description: vivo的第一个平板，在当时中规中矩，一直用到现在。
           image: https://img.mcfywb.top/www/equipment/ceVmFGvDXCrU.jpg
           link: https://www.vivo.com.cn/vivo/vivopad
         - name: iQOO Neo9S Pro
           specification: 天玑9300+ / 16G+512G / 红白魂
-          description: 续航很崩，完事还被Pro+背刺。买512是为了打游戏，结果上了大学把手游戒了。
+          description: 买完没多久被同系列的Pro+背刺，而且续航不行。当时选择512G是为了打游戏，结果上大学把手游戒了。
           image: https://img.mcfywb.top/www/equipment/10009716_1715757334068_1080x1080.png
           link: https://www.vivo.com.cn/vivo/iqooneo9spro
     - title: 可穿戴设备
@@ -26,12 +26,12 @@
       equipment_list:
         - name: vivo TWS 3i
           specification: 墨蓝
-          description: 性价比不高，单纯因为便宜，和vivo家的。
+          description: 性价比不高，单纯因为便宜，以及是vivo的。
           image: https://img.mcfywb.top/www/equipment/10009874_1728465813651_1080x1080.png
           link: https://shop.vivo.com.cn/product/10009874
         - name: vivo WATCH 3
           specification: 蓝牙版 / 月光白 / 软胶
-          description: 因为其它配件都是vivo的，所以手表也选了vivo。而且懒的装其他家的健康软件。
+          description: 因为懒的装其它家的健康软件，所以依旧选择了vivo。买的时候三大运营商还没开通esim业务，只能选了蓝牙版。
           image: https://img.mcfywb.top/www/equipment/10009063_1699615142960_1080x1080.png
           link: https://www.vivo.com.cn/vivo/vivowatch3
     - title: 外设
@@ -39,7 +39,7 @@
       equipment_list:
         - name: vivo XE160
           specification: 3.5mm接口
-          description: 嗯，不知道哪年买手机送的耳机，一直用着，能听脚步就行。
+          description: 不知道哪年买手机送的耳机，一直用着，能听脚步就行。
           image: https://img.mcfywb.top/www/equipment/10689_1693986719111_1080x1080.png
           link: https://shop.vivo.com.cn/product/10689?skuId=118459
         - name: VALKYRIE M1
@@ -55,38 +55,48 @@
     - title: 以前的设备
       description: 
       equipment_list:
+        - name: Lenovo G40-45
+          specification: E1-6010 / 4G+512G
+          description: 2014年买的，不知道哪年电池坏了，必须插电用。2025年2月家里装修翻出来卖废品，内存条、机械硬盘和无线网卡被我留下作纪念。
+          image: https://img.mcfywb.top/www/equipment/3.jpg
+          link: https://detail.zol.com.cn/notebook/index381266.shtml
+        - name: 小新-15 2020(Intel平台：IIL版)
+          specification: i5-1035G1+MX350 / 8G+512G / 银色
+          description: 2020年国庆买的，这一代是联想小新最后一代有独显的轻薄本，MX350相当于GTX1060的性能也够我轻度游戏了，现在给我妈妈办公用。
+          image: https://img.mcfywb.top/www/equipment/20200511112124711555481853.jpg
+          link: https://item.lenovo.com.cn/product/1007252.html
         - name: Lenovo A3860
           specification: 联发科 MT6735P / 1G+8G
-          description: 2015年我妈充话费送的手机，就给我用了，一直用到2019年。
+          description: 2015年充话费送的手机，一直用到2019年。
           image: https://img.mcfywb.top/www/equipment/ceSKVkACQfWAw.jpg
           link: https://item.lenovo.com.cn/product/51693.html
         - name: vivo V3
           specification: 骁龙616 / 3G+16G / 香槟金
-          description: 我妈在2016年买的手机，然后2019年这个手机就给我用了。可惜现在见不到这么小屏的手机，还耐用。2020年因为电池发烫原因扔掉了。
+          description: 我妈妈在2016年买的，2019年给我用。非常喜欢这种小屏的手感，可惜现在见不到了。2020年因为电池发烫原因扔掉了。
           image: https://img.mcfywb.top/www/equipment/4069_1465799043907_530x530.png
           link: https://shop.vivo.com.cn/product/9920
         - name: vivo Y3
           specification: 联发科 MT6765 / 4G+64G / 暗夜蓝
-          description: 2020年暑假换的手机。这个手机见证了我和平精英打的最厉害的时候，甚至是顶着24帧玩的。
+          description: 2020年暑假换的。千元机，只用了一年，比较喜欢这种背面的指纹解锁设计。
           image: https://img.mcfywb.top/www/equipment/10005906_1608877239014_1080x1080.png
           link: https://www.vivo.com.cn/vivo/y3
         - name: vivo S9
           specification: 天玑1100 / 8G+256G / 子夜蓝
-          description: 上高中换的手机。高一上偷玩被收了，高一结束拿回来。后面一直当备用机在用。
+          description: 初中升高中换的。高一上学期偷玩被收了，后面一直在当游戏机用。续航和拍照都可以。可惜并没有作为主力机长时间用，现在当备用机吃灰。
           image: https://img.mcfywb.top/www/equipment/10006277_1619365761492_1080x1080.png
           link: https://www.vivo.com.cn/vivo/s9
         - name: iQOO Z5x
           specification: 天玑900 / 8G+256G / 雾海白
-          description: vivo S9被收后用的手机。高二上也被收过一段时间，后来黄浩偷回来了，借他玩了一个学期。拿回来后作为主力机用，续航很好。
+          description: vivo S9被收后用的手机。高二上学期被收过。后面一直作为主力机用。续航很好，侧边指纹也很舒服，非常耐用。缺点就是拍照太糊了。
           image: https://img.mcfywb.top/www/equipment/10006909_1634538978254_1080x1080.png
           link: https://www.vivo.com.cn/vivo/iqooz5x
         - name: vivo TWS Air
           specification: 元气白
-          description: 高二合格考的时候买的耳机，一直用到大一寒假，跟朋友出去打台球忘在了店里，后面再去找就没了。
+          description: 高二合格考的时候买的耳机，一直用到大一寒假。跟朋友出去打台球忘在了店里，后面再去找就没了。
           image: https://img.mcfywb.top/www/equipment/10007427_1652764769221_1080x1080.png
           link: https://www.vivo.com.cn/vivo/twsair
         - name: iQOO TWS 1e
           specification: 星珠黄
-          description: 这个耳机只用了一个月，然后在看电影的时候落在电影院也找不到了。（os：我真牛逼，连续两个月掉两个耳机）
+          description: 这个耳机只用了一个月，2025年清明假与朋友看电影时落在电影院也找不到了。（os：我真牛逼，连续两个月掉了两个耳机）
           image: https://img.mcfywb.top/www/equipment/10009286_1702631065572_1080x1080.png
           link: https://shop.vivo.com.cn/product/10009286
