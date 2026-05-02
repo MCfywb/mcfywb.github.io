@@ -1,10 +1,10 @@
 - class_name: 好友
-  flink_style: flexcard
+  flink_style: telescopic
   hundredSuffix: ""
   link_list:
     - name: TheBUGMUXI
       link: https://www.thebugmuxi.xyz/
       avatar: https://q.qlogo.cn/headimg_dl?dst_uin=2647951600&spec=640&img_type=jpg
-      descr: 
+      descr: 愿作深山木 枝枝连理生
       siteshot: https://img.mcfywb.top/www/link/screenshot-1777524956956.png
       recommend: true

@@ -4,4 +4,5 @@ date: 2026-04-30 09:59:12
 type: equipment
 aside: false
 top_img: false
+comments: true
 ---
