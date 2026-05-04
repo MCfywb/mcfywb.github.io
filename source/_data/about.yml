@@ -1,0 +1,104 @@
+- class_name: 关于页
+  subtitle: 喜欢就争取 得到的就珍惜
+  avatarImg: https://img.mcfywb.top/www/about/61d67a4a3edb6ea7c83d63c434a6b54c.jpg
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: MC风月无边
+  description: 是一名 学生、B站UP主、独立开发者
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: Hello there!
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: EDU，软件技术专业
+        color: "#357ef5"
+    img: https://img.mcfywb.top/www/about/timeline.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://img.mcfywb.top/www/about/f53e171bff9352f91f1e01ced7bfc106.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国，盐城市，射阳县
+    background: https://img.mcfywb.top/www/about/screenshot-1777858708712.png
+    backgroundDark: https://img.mcfywb.top/www/about/screenshot-1777858823608.png
+  selfInfo:
+    selfInfoTips1: 生于
+    selfInfoContentYear: 2006
+    selfInfoTips2: 江苏电子信息职业学院
+    selfInfoContent2: 软件技术
+    selfInfoTips3: 现在职业
+    selfInfoContent3: 大二学生👨‍🎓
+  personalities:
+    author_name: 守卫者
+    personality_type: ISFJ-T
+    photo_url: https://img.mcfywb.top/www/comments/20260428_092344.jpg
+    personality_img: https://img.mcfywb.top/www/about/isfj-defender-female.svg
+    name_url: https://www.16personalities.com/ch/isfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 座右铭
+    maxim_top: 喜欢就争取
+    maxim_bottom: 得到的就珍惜
+  buff:
+    buff_tips: 特长
+    buff_top: 玄学流电脑疑难问题解决专家
+    buff_bottom: 软件折腾能力 大师级
+  game:
+    game_tips: 爱好游戏
+    game_title: 原神
+    game_uid: "UID: 128959587"
+    game_bg: https://img.mcfywb.top/www/about/43a91b3b497efdb5c99cbe339c7a1302_1141143525394591523.png
+  comic:
+    comic_tips: 爱好动漫
+    comic_title: 追番与追剧
+    comic_list:
+      - name: 天气之子
+        href: https://www.bilibili.com/bangumi/play/ep332611
+        cover: https://img.mcfywb.top/www/about/33680a2209c4dba76322b2ffeeaf3dd821db576c.png
+      - name: Re：从零开始的异世界生活
+        href: https://www.bilibili.com/bangumi/play/ep307056
+        cover: https://img.mcfywb.top/www/about/3c125e1aad08643e3eff2fb7d45e740c1a052725.png
+      - name: 请问您今天要来点兔子吗？
+        href: https://www.bilibili.com/bangumi/play/ss191
+        cover: https://img.mcfywb.top/www/about/e5e7edcb4f17cfd1ba4cd233a12f514862bf1c94.jpg
+      - name: 埃罗芒阿老师
+        href: https://www.bilibili.com/bangumi/play/ep103917
+        cover: https://img.mcfywb.top/www/about/a223b1376633625be1cd214c34d8bf34a1e03770.jpg
+      - name: 总之就是非常可爱
+        href: https://www.bilibili.com/bangumi/play/ss34230
+        cover: https://img.mcfywb.top/www/about/3b97bfc609e08417eb391ef975a8648c28c55e04.png
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://img.mcfywb.top/www/about/638f5f05ce1f7.jpg
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 不是花火呀、葛雨晴、伤感
+    music_bg: https://img.mcfywb.top/www/about/T001R300x300M00000412Mtb14Xfr9_8.webp
+    music_link: /music
+  reward_list:
+    - name: TheBUGMUXI
+      amount: 5
+      datatime: 2024-12-27
