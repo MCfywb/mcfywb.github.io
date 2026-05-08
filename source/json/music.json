@@ -4,21 +4,21 @@
     "artist": "不是花火呀",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/陨落/陨落.ogg",
     "cover": "https://y.qq.com/music/photo_new/T002R300x300M000003mQHQc0hIREQ_2.jpg",
-    "lrc": "https://img.mcfywb.top/陨落.lrc"
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/陨落/陨落.lrc"
   },
   {
     "name": "彼女は旅に出る",
     "artist": "鎖那",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/彼女は旅に出る/彼女は旅に出る.mp3",
     "cover": "https://p2.music.126.net/McwYbq8c2e9uugG51Rm-Jg==/109951166222733663.jpg",
-    "lrc": "https://img.mcfywb.top/彼女は旅に出る.lrc"
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/彼女は旅に出る/彼女は旅に出る.lrc"
   },
   {
     "name": "打上花火",
     "artist": "Daoko / 米津玄師",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/打上花火/打上花火.mp3",
     "cover": "https://p2.music.126.net/ZUCE_1Tl_hkbtamKmSNXEg==/109951163009282836.jpg",
-    "lrc": "https://img.mcfywb.top/打上花火.lrc"
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/打上花火/打上花火.lrc"
   },
   {
     "name": "扑通扑通",
@@ -35,6 +35,20 @@
     "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/风把秘密吹进星河/风把秘密吹进星河.lrc"
   },
   {
+    "name": "白月光与朱砂痣",
+    "artist": "大籽",
+    "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/白月光与朱砂痣/白月光与朱砂痣.ogg",
+    "cover": "https://y.qq.com/music/photo_new/T002R300x300M000000dt9Py0BrReK_3.jpg",
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/白月光与朱砂痣/白月光与朱砂痣.lrc"
+  },
+  {
+    "name": "I Really Want to Stay at Your House",
+    "artist": "Samuel Kim / Lorien",
+    "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/I Really Want to Stay at Your House/I Really Want to Stay at Your House.mp3",
+    "cover": "https://p2.music.126.net/-LHyMtXmo-yDf-eqwb8ThA==/109951168143056350.jpg",
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.1/I Really Want to Stay at Your House/I Really Want to Stay at Your House.lrc"
+  },
+  {
     "name": "冬眠·2023",
     "artist": "阿YueYue / 刘兆宇",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/冬眠2023/冬眠2023.mp3",
@@ -46,13 +60,13 @@
     "artist": "梨冻紧 / Wiz_H张子豪",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/罗生门/罗生门.mp3",
     "cover": "https://p1.music.126.net/yN1ke1xYMJ718FiHaDWtYQ==/109951165076380471.jpg",
-    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/罗生门/罗生门.mp3"
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/罗生门/罗生门.lrc"
   },
   {
     "name": "知我",
     "artist": "国风堂 / 哦漏",
     "url": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/知我/知我.mp3",
     "cover": "https://p2.music.126.net/_etyUh1ofScyTMFArsJXWg==/109951164415301539.jpg",
-    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/知我/知我.mp3"
+    "lrc": "https://cdn.cbd.int/mcfywb-top-music@1.0.0/知我/知我.lrc"
   }
 ]
