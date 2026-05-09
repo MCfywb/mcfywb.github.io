@@ -29,9 +29,6 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
-             npm install hexo-renderer-pug hexo-renderer-stylus --save
-             npm install hexo-butterfly-envelope --save
-             npm install hexo-bilibili-bangumi --save
       - name: bangumi
         run: npx hexo bangumi -u
       - name: Build
