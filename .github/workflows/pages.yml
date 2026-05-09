@@ -37,7 +37,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@5.0.0
+        uses: actions/upload-pages-artifact@5
         with:
           path: ./public
   deploy:
