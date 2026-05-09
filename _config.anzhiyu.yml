@@ -1276,6 +1276,7 @@ CDN:
   custom_format: # https://npm.elemecdn.com/${name}@latest/${file}
 
   option:
+    meting_api: https://api.mcfywb.top/api?server=:server&type=:type&id=:id&auth=:auth&r=:r
     # main_css:
     # main:
     # utils:
