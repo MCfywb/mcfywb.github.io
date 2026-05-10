@@ -1,0 +1,191 @@
+- class_name: 射阳县
+  path_name: /sheyang
+  type: 1
+  cover: https://img.mcfywb.top/www/album/sheyang/IMG_20260425_173437.jpg
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52b48aafc.webp
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2026/05/05
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260425_114833.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_132917.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_133147.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260501_122742.jpg
+    - date: 2026/04/26
+      content: 去吾悦抓娃娃
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_184412.jpg
+    - date: 2026/04/26
+      content: 也不知道脑子哪根筋搭错了，凌晨12点出门走了3个小时。不过做自己想做的事确实挺开心的。
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_003541.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_004654.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_012523.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_013427.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_020416.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_020514.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_024632.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260426_030238.jpg
+    - date: 2026/04/25
+      content: 茶百道x崩坏：星穹铁道联动
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/Screenshot_20260425_110906.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260425_175254.jpg
+    - date: 2026/04/23
+      content: 依旧没课回家，但是这次是因为自己内耗严重回家散心，调整心情
+      address: 盐城站东进站口
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/Screenshot_20260423_163016.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260423_172757.jpg
+    - date: 2026/03/26
+      content: 周末没课回家一趟
+      address: 盐城站东广场
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260326_183108_edit_71396.jpg
+    - date: 2026/02/17
+      content: 春节跟妈妈去看了飞驰人生3
+      address: 射阳国际影城
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260217_112815.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260217_132509.jpg
+    - date: 2026/02/11
+      content: 年前最后一次出门
+      address: 恒隆广场
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260211_181637.jpg
+    - date: 2026/01/24
+      content: KFCx鸣潮联动
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260124_003835.jpg
+    - date: 2026/01/20
+      content: 和朋友趁雪还没化出门玩
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260120_162805.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260120_184005.jpg
+    - date: 2026/01/19
+      content: 今年的第一场雪，为了拍雪还摔了一跤...
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260119_190340.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260119_222841.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260119_223209.jpg
+    - date: 2026/01/18
+      content: 孤久成瘾CY家的面包摊，做的还挺好吃
+      address: 新城锦绣南门
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260118_145811.jpg
+    - date: 2026/01/14
+      content: 高中校门口
+      address: 射阳县第二中学
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260114_145615.jpg
+    - date: 2026/01/13
+      content: 射阳明珠
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260425_173437.jpg
+    - date: 2026/01/01
+      content: 楼下的奶茶店
+      image: 
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260101_114438.jpg
+    - date: 2026/01/01
+      content: 快递痛车
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260101_130443.jpg
+
+- class_name: 淮安市
+  path_name: /huaian
+  type: 2
+  cover: https://img.mcfywb.top/www/album/huaian/IMG_20260404_192937.jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52b48aafc.webp
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - address: 淮安万象城
+      image: 
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_164303.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_170204.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_170259.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_170338.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_173048.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_174342.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_174519.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_174522.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_174622.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260306_180456.jpg
+    - address: 江苏电子信息职业学院
+      image:
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260309_170854.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260324_162427.jpg
+    - address: 河下古镇
+      image: 
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260404_192342.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260404_192937.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260404_195446.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260404_200143.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260404_204909.jpg
+    - image: 
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260405_200605.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260405_201654.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260405_212449.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260405_212451.jpg
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260405_212725.jpg
+    - address: 江苏电子信息职业学院
+      image:
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260410_134526.jpg
+
+- class_name: 头像
+  path_name: /avatar
+  type: 2
+  cover: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52b48aafc.webp
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - image:
+        - https://img.mcfywb.top/www/album/avatar/76bd29ac8089458cb1c6a29fc3be6dec.jpg
+        - https://img.mcfywb.top/www/album/avatar/9684e44bc9ee3ab152bec12bfdd63a4e9af658e8.jpg
+        - https://img.mcfywb.top/www/album/avatar/c9342ab5-7daa-4e0e-af5d-442579808479.jpg
+        - https://img.mcfywb.top/www/album/avatar/162122676598789a06ce418fe2475d25e65e865bb5b9de49543d4.jpg
+        - https://img.mcfywb.top/www/album/avatar/FB_IMG_1629238972306.jpg
+        - https://img.mcfywb.top/www/album/avatar/FB_IMG_1639848430360.jpg
+        - https://img.mcfywb.top/www/album/avatar/1667930463602a4b5fd898ba5864901b4953821bb8183eec016f8.jpg
+        - https://img.mcfywb.top/www/album/avatar/%E4%B8%8B%E8%BD%BD.jpeg
+        - https://img.mcfywb.top/www/album/avatar/e85fde8930e993f7b2b9fc2830cc16214c54bb2a.jpg
+        - https://img.mcfywb.top/www/album/avatar/Image_1778437347716_396.jpg
+        - https://img.mcfywb.top/www/album/avatar/FB_IMG_1688836842727.jpg
+        - https://img.mcfywb.top/www/album/avatar/Image_1778437538894_22.jpg
+        - https://img.mcfywb.top/www/album/avatar/Image_1778437581217_563.jpg
+        - https://img.mcfywb.top/www/album/avatar/Image_1778437588902_102.jpg
+        - https://img.mcfywb.top/www/album/avatar/illust_91997877_20220210_203222.jpg
+        - https://img.mcfywb.top/www/album/avatar/Camera_1040g3k031gc0rk893u6g5p112evkidhsb128tjo.jpg
+        - https://img.mcfywb.top/www/album/avatar/1506db40f78221c926acd88150ea6247.jpg
+        - https://img.mcfywb.top/www/album/avatar/85886347f60e0dd2d26d7eef18cbb5fe.jpg
+        - https://img.mcfywb.top/www/album/avatar/ec1e52bd2beebe7daefd6a6406314700.jpg
+        - https://img.mcfywb.top/www/album/avatar/d46f54d161e92ab605f5b2e25fbb9dd3.jpg
+        - https://img.mcfywb.top/www/album/avatar/Camera_XHS_17771883754161040g2sg31a0srcj872cg49mdee0f0hkn3ckuuu0.jpg
+        - https://img.mcfywb.top/www/album/avatar/71a0c34bdeff618ff4f1a3c126507bd0.jpg
+        - https://img.mcfywb.top/www/album/avatar/61d67a4a3edb6ea7c83d63c434a6b54c.jpg
+        - https://img.mcfywb.top/www/album/avatar/f48a1c1cde9d1e949ae6a48925f107cc.jpg
+        - https://img.mcfywb.top/www/album/avatar/3541899fbab6786adcd2e1221ed30a33.jpg
+        - https://img.mcfywb.top/www/album/avatar/fb2d14032c8d5dbd1544be4254b77ab3.jpg
+        - https://img.mcfywb.top/www/album/avatar/9c5a5157b063959529f3c201fb24aded.jpg
+        - https://img.mcfywb.top/www/album/avatar/f39f21f98ec3770abe2892dd5d843536.jpg
+        - https://img.mcfywb.top/www/album/avatar/41c09bb8a0458e9ad65a4684aeb7a50c.jpg
+        - https://img.mcfywb.top/www/album/avatar/54594104ccb76e4ae3d8f017d419bae5.jpg
+        - https://img.mcfywb.top/www/album/avatar/f53e171bff9352f91f1e01ced7bfc106.jpg
+        - https://img.mcfywb.top/www/album/avatar/6b73a3c100297c1ae49b210873f64746.jpg
+        - https://img.mcfywb.top/www/album/avatar/8150dc8f4d2ab996e810a1bfd777a0c2.jpg
+        - https://img.mcfywb.top/www/album/avatar/bc1fc2975cf385b592d0147825a7f46a.jpg
+        - https://img.mcfywb.top/www/album/avatar/547aac1bf13078efbaa123d3370ffece.jpg
+        - https://img.mcfywb.top/www/album/avatar/caea2b292e43712660bd65fef0ec006e.jpg
+        - https://img.mcfywb.top/www/album/avatar/e93a23dd0a36659cb14b2edbb6c6b9e7.jpg
