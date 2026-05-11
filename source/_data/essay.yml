@@ -1,0 +1,23 @@
+- title: 即刻短文
+  subTitle: 咸鱼的日常生活。
+  tips: 随时随地，分享生活
+  buttonText: 关于我
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: https://img02.anheyu.com/adminuploads/1/2023/06/30/649e52bb04ed2.webp
+  essay_list: 
+    - content: 开服玩家 但是总时长不多
+      date: 2026/05/11 11:15
+      image: 
+        - https://img.mcfywb.top/www/essay/2026/05/11/Screenshot_20260511_111255_com.miHoYo.cloudgames.ys.jpg
+    - content: 100页的文件，我复习什么
+      date: 2026/05/08 13:26
+      image:
+        - https://img.mcfywb.top/www/essay/2026/05/08/Image_1778479717302_771.jpg
+    - content: 一天干了三杯咖啡 我今晚还睡得着吗
+      date: 2026/05/05 19:52
+    - content: 一年没打羽毛球，打不动了
+      date: 2026/05/02 10:56
+      image: 
+        - https://img.mcfywb.top/www/essay/2026/05/02/Image_1778478007429_361.jpg
