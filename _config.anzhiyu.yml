@@ -23,20 +23,23 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: false
   menu:
-    - title: 网页
+    - title: 其它项目
       item:
-        - name: 博客
-          link: https://hexo.anheyu.com/
+        - name: 网盘
+          link: https://git.mcfywb.top
           icon: /img/favicon.ico
-    - title: 项目
+        - name: 网站状态
+          link: https://status.mcfywb.top
+          icon: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
+    - title: 社交媒体
       item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
+        - name: 哔哩哔哩
+          link: https://space.bilibili.com/432245733
+          icon: /img/bilibili.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -47,12 +50,12 @@ mourn:
 # Code Blocks (代码相关)
 # --------------------------------------
 
-highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
+highlight_theme: ocean #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
 highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
 highlight_height_limit: 330 # unit: px
-code_word_wrap: false
+code_word_wrap: true
 
 # copy settings
 # copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
