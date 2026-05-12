@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: mcfywb
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6.0.2
         with:
@@ -20,13 +20,13 @@ jobs:
           # Examples: 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
           # Ref: https://github.com/actions/setup-node#supported-version-syntax
           node-version: "latest"
-      # - name: Cache NPM dependencies
-      #   uses: actions/cache@v5.0.5
-      #   with:
-      #     path: node_modules
-      #     key: ${{ runner.OS }}-npm-cache
-      #     restore-keys: |
-      #       ${{ runner.OS }}-npm-cache
+      - name: Cache NPM dependencies
+        uses: actions/cache@v5.0.5
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
       - name: bangumi
@@ -45,7 +45,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: mcfywb
+    runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
