@@ -30,7 +30,7 @@ nav:
     - title: 其它项目
       item:
         - name: 网盘
-          link: https://git.mcfywb.top
+          link: https://file.mcfywb.top
           icon: /img/favicon.ico
         - name: 网站状态
           link: https://status.mcfywb.top
