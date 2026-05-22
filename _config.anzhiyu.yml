@@ -451,6 +451,9 @@ footer:
       - link: https://www.dogecloud.com
         shields: https://img.mcfywb.top/www/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-8AC4FC.svg
         message: 多吉云为本站提供CDN加速服务
+      - link: https://github.com/MCfywb/mcfywb.github.io
+        shields: https://img.mcfywb.top/www/Github-Source-181717.svg
+        message: 本站托管于Github
       - link: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
         shields: https://img.mcfywb.top/www/Creative%20Commons-CC%20BY--NC--SA%204.svg
         message: 本站采用知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版进行许可
