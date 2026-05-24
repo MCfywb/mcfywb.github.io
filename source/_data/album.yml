@@ -6,6 +6,18 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
+    - date: 2026/05/23
+      content: 骑了半小时的车去拍的。可惜没拍出想要的效果，后面应该还会再来的
+      address: 兴桥镇S232省道冈合路
+      image:
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004341.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004353.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004357.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004409.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004413.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004417.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004421.jpg
+        - https://img.mcfywb.top/www/album/sheyang/IMG_20260525_004424.jpg
     - date: 2026/05/05
       image:
         - https://img.mcfywb.top/www/album/sheyang/IMG_20260425_114833.jpg
@@ -137,6 +149,9 @@
     - address: 江苏电子信息职业学院
       image:
         - https://img.mcfywb.top/www/album/huaian/IMG_20260410_134526.jpg
+    - address: 通甫路大运河桥
+      image: 
+        - https://img.mcfywb.top/www/album/huaian/IMG_20260521_162027.jpg
 
 - class_name: 头像
   path_name: /avatar
@@ -190,3 +205,5 @@
         - https://img.mcfywb.top/www/album/avatar/dc0b07e2beb04b580bebe70fbf4aaacd.jpg
         - https://img.mcfywb.top/www/album/avatar/f21f80d2f557767ddfa08d6f41f17087.jpg
         - https://img.mcfywb.top/www/album/avatar/956987cdcbeffa3b6967ab39679c5a00.jpg
+        - https://img.mcfywb.top/www/album/avatar/66130238194be74712300b909190d557.jpg
+        - https://img.mcfywb.top/www/album/avatar/a99e8fb0469fa1a07dd025da330d9726.jpg
