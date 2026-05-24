@@ -159,8 +159,8 @@
   cover: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
   rowHeight: 220
   limit: 10
-  lazyload: true
-  btnLazyload: false
+  lazyload: false
+  btnLazyload: true
   url: false
   top_background: https://img.mcfywb.top/www/album/649e52b48aafc.webp
   top_link: /album
