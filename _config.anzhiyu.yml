@@ -71,9 +71,9 @@ copy:
 #   name: link || icon
 social:
    哔哩哔哩: https://space.bilibili.com/432245733 || fa-brands fa-bilibili
-   抖音: https://www.douyin.com/user/MS4wLjABAAAAzc8X_qwmYUoFrrzeoEHv1h9et8GkbJsIcvPl7haHJIg || fa-brands fa-tiktok
-   QQ: https://qm.qq.com/cgi-bin/qm/qr?k=GAAO3WuBPc2W2nqSteBorm9ZBqIm9GBB || fa-brands fa-qq
+   X: https://x.com/MCfywb || fa-brands fa-x-twitter
    Github: https://github.com/MCfywb || fa-brands fa-github
+   Steam: https://steamcommunity.com/id/MCfywb || fa-brands fa-steam
 
 # 作者卡片 状态
 author_status:
