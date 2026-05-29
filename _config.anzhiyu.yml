@@ -577,7 +577,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity:
+microsoft_clarity: wylcmnjfvi
 
 # Advertisement
 # --------------------------------------
@@ -876,7 +876,7 @@ newest_comments:
 
 # Conversion between Traditional and Simplified Chinese (简繁转换)
 translate:
-  enable: true
+  enable: false
   # The text of a button
   default: 繁
   # Right-click menu default text
@@ -926,8 +926,8 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: 1
-  start: # 8
-  end: # 22
+  start: 6 # 8
+  end: 18 # 22
 
 # Don't modify the following settings unless you know how they work (非必要请不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
