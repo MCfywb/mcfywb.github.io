@@ -39,7 +39,28 @@ nav:
       item:
         - name: 哔哩哔哩
           link: https://space.bilibili.com/432245733
-          icon: /img/bilibili.ico
+          icon: /img/nav/bilibili.svg
+        - name: 抖音
+          link: https://www.douyin.com/user/MS4wLjABAAAAzc8X_qwmYUoFrrzeoEHv1h9et8GkbJsIcvPl7haHJIg
+          icon: /img/nav/douyin.svg
+        - name: 微博
+          link: https://weibo.com/u/6643246060
+          icon: /img/nav/weibo.svg
+        - name: Facebook
+          link: https://www.facebook.com/MCfywb
+          icon: /img/nav/facebook.svg
+        - name: X
+          link: https://x.com/MCfywb
+          icon: /img/nav/x.svg
+        - name: Instagram
+          link: https://www.instagram.com/mcfywb
+          icon: /img/nav/instagram.svg
+        - name: Threads
+          link: https://www.threads.com/@mcfywb
+          icon: /img/nav/threads.svg
+        - name: YouTube
+          link: https://youtube.com/@mcfywb
+          icon: /img/nav/youtube.svg
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -247,10 +268,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: https://img.mcfywb.top/www/wechat.png
+    - img: /img/wechat.png
       link:
       text: 微信
-    - img: https://img.mcfywb.top/www/alipay.jpg
+    - img: /img/alipay.jpg
       link:
       text: 支付宝
 
@@ -443,19 +464,19 @@ footer:
     enable: true
     list:
       - link: https://hexo.io/zh-cn/ #徽标指向网站链接
-        shields: https://img.mcfywb.top/www/Powered%20by-Hexo-0E83CD.svg #徽标API
+        shields: /img/footer/Powered%20by-Hexo-0E83CD.svg #徽标API
         message: 本站由Hexo驱动 #徽标提示语
       - link: https://docs.anheyu.com
-        shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
+        shields: /img/footer/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: https://www.dogecloud.com
-        shields: https://img.mcfywb.top/www/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-8AC4FC.svg
+        shields: /img/footer/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-8AC4FC.svg
         message: 多吉云为本站提供CDN加速服务
       - link: https://github.com/MCfywb/mcfywb.github.io
-        shields: https://img.mcfywb.top/www/Github-Source-181717.svg
+        shields: /img/footer/Github-Source-181717.svg
         message: 本站托管于Github
       - link: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
-        shields: https://img.mcfywb.top/www/Creative%20Commons-CC%20BY--NC--SA%204.svg
+        shields: /img/footer/Creative%20Commons-CC%20BY--NC--SA%204.svg
         message: 本站采用知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版进行许可
   socialBar:
     enable: false
@@ -1280,6 +1301,7 @@ CDN:
 
   option:
     meting_api: https://api.mcfywb.top/api?server=:server&type=:type&id=:id&auth=:auth&r=:r
+    fontawesome: https://cdn.cbd.int/@fortawesome/fontawesome-free@7.2.0/css/all.min.css
     twikoo: https://cdn.cbd.int/twikoo@1.7.11/dist/twikoo.min.js
     # main_css:
     # main:
