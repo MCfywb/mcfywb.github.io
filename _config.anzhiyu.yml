@@ -92,9 +92,7 @@ copy:
 #   name: link || icon
 social:
    哔哩哔哩: https://space.bilibili.com/432245733 || fa-brands fa-bilibili
-   X: https://x.com/MCfywb || fa-brands fa-x-twitter
    Github: https://github.com/MCfywb || fa-brands fa-github
-   Steam: https://steamcommunity.com/id/MCfywb || fa-brands fa-steam
 
 # 作者卡片 状态
 author_status:
