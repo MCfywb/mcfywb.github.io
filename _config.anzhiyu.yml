@@ -1071,9 +1071,9 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱。
-  siteText: anheyu.com
+  title: 所求皆所愿
+  subTitle: 所行皆坦途
+  siteText: mcfywb.github.io
   category:
     - name: 代码
       path: /categories/代码开发/
@@ -1167,12 +1167,12 @@ nav_music:
   all_playlist: https://y.qq.com/n/ryqq_v2/playlist/9678439021
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
-music_page_default: custom
+music_page_default: nav_music
 
 # 评论匿名邮箱
 visitorMail:
   enable: true
-  mail: ""
+  mail: "no-reply@mcfywb.top"
 
 # ptool 文章底部工具
 ptool:
@@ -1180,7 +1180,7 @@ ptool:
   share_mobile: true
   share_weibo: true
   share_copyurl: true
-  categories: false # 是否显示分类
+  categories: true # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
 
 # 欢迎语配置
@@ -1256,7 +1256,7 @@ rightClickMenu:
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效

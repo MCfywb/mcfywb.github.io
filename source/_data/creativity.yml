@@ -1,0 +1,44 @@
+- class_name: 开启创造力
+  creativity_list:
+    - name: Python
+      color: "#fff"
+      icon: /img/creativity/python.svg
+    - name: HTML5
+      color: "#fff"
+      icon: /img/creativity/html5.svg
+    - name: CSS
+      color: "#fff"
+      icon: /img/creativity/css.svg
+    - name: JavaScript
+      color: "#fff"
+      icon: /img/creativity/javascript.svg
+    - name: Vue.js
+      color: "#fff"
+      icon: /img/creativity/vuejs.svg
+    - name: Java
+      color: "#fff"
+      icon: /img/creativity/java.svg
+    - name: Apache Tomcat
+      color: "#fff"
+      icon: /img/creativity/apachetomcat.svg
+    - name: Postman
+      color: "#fff"
+      icon: /img/creativity/postman.svg
+    - name: Docker
+      color: "#fff"
+      icon: /img/creativity/docker.svg
+    - name: MySQL
+      color: "#fff"
+      icon: /img/creativity/mysql.svg
+    - name: Android
+      color: "#fff"
+      icon: /img/creativity/android.svg
+    - name: Git
+      color: "#fff"
+      icon: /img/creativity/git.svg
+    - name: Apache Maven
+      color: "#fff"
+      icon: /img/creativity/apachemaven.svg
+    - name: Markdown
+      color: "#fff"
+      icon: /img/creativity/markdown.svg
