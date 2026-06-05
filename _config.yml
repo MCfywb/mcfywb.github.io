@@ -151,3 +151,20 @@ bangumi: # 追番设置
 aplayer:
   meting: true
   asset_inject: false
+
+# algolia搜索: https://github.com/LouisBarranqueiro/hexo-algoliasearch
+algolia:
+  appId: "P3NYM37QVZ"
+  apiKey: "06a7a4355983696bc21283aafa7c8ac6"
+  adminApiKey: "ab43934b23d5cee0a7bb9eca1d263120"
+  chunkSize: 5000
+  indexName: "mcfywb-github-io"
+  fields:
+    - content:strip:truncate,0,200
+    - excerpt:strip
+    - gallery
+    - permalink
+    - photos
+    - slug
+    - tags
+    - title
