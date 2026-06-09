@@ -159,7 +159,7 @@
   cover: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
   rowHeight: 220
   limit: 10
-  lazyload: false
+  lazyload: true
   btnLazyload: true
   url: false
   top_background: https://img.mcfywb.top/www/album/649e52b48aafc.webp
@@ -207,3 +207,7 @@
         - https://img.mcfywb.top/www/album/avatar/956987cdcbeffa3b6967ab39679c5a00.jpg
         - https://img.mcfywb.top/www/album/avatar/66130238194be74712300b909190d557.jpg
         - https://img.mcfywb.top/www/album/avatar/a99e8fb0469fa1a07dd025da330d9726.jpg
+        - https://img.mcfywb.top/www/album/avatar/PqU7Hxa0_400x400.jpg
+        - https://img.mcfywb.top/www/album/avatar/mmexport1780846859919.jpg
+        - https://img.mcfywb.top/www/album/avatar/17808468689402d3c2375c400ac6416e9b656dd7ec7dd4524ba2f.jpg
+        - https://img.mcfywb.top/www/album/avatar/20260608_130528.jpg
