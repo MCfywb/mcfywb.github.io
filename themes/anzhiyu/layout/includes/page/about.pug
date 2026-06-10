@@ -93,7 +93,7 @@ if site.data.about
         if theme.LA.enable || theme.umami.enable
           - let cover = item.statistic.cover
           - let statisticSource = theme.LA.enable ? '51la' : 'Umami'
-          - let statisticLink = theme.LA.enable ? 'https://invite.51.la/1NzKqTeb?target=V6' : (theme.umami.apiHost || '#')
+          - let statisticLink = theme.LA.enable ? 'https://v6.51.la/' : (theme.umami.apiHost || '#')
           .about-statistic.author-content-item(style=`background: url(${cover}) top / cover no-repeat;`)
             .card-content
               .author-content-item-tips=_p('about.data')
