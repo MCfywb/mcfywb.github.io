@@ -1299,6 +1299,7 @@ CDN:
 
   option:
     meting_api: https://meting.mcfywb.top/api?server=:server&type=:type&id=:id&auth=:auth&r=:r
+    meting_js: https://unpkg.com/@xizeyoupan/meting@latest/dist/Meting.min.js
     fontawesome: https://cdn.cbd.int/@fortawesome/fontawesome-free@7.2.0/css/all.min.css
     twikoo: https://cdn.cbd.int/twikoo@1.7.11/dist/twikoo.min.js
     # main_css:
