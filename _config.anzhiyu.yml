@@ -132,7 +132,7 @@ docsearch:
 # Local search
 local_search:
   enable: false
-  preload: true
+  preload: false
   CDN:
 
 # Math (数学)
@@ -161,14 +161,14 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
   effect: false
 
 # Disable all banner image
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url(https://img.mcfywb.top/www/86695978_p0.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
+index_img: "background: url(https://img.mcfywb.top/www/QQ%E6%88%AA%E5%9B%BE20230309232951.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
