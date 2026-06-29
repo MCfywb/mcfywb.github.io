@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Font';
+    src: url("../font/font.woff2") format("woff2");
+}
+body {
+    cursor: url('../cursor/default.png'), auto;
+}
+a, button, i, span, img, time {
+    cursor: url('../cursor/pointer.png'), pointer;
+}
+input, textarea {
+    cursor: url('../cursor/text.png'), text;
+}
