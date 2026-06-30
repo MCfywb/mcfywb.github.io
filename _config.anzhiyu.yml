@@ -184,6 +184,9 @@ cover:
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     # - /img/default_cover.jpg
+    - https://img.mcfywb.top/www/xingchen_555.jpg
+    - https://img.mcfywb.top/www/86695978_p0.jpg
+    - https://img.mcfywb.top/www/boqijiang.jpg
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
