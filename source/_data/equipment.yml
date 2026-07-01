@@ -1,7 +1,7 @@
 - class_name: 好物
   description: 实物装备推荐
   tip: 跟 MC风月无边 一起享受科技带来的乐趣
-  top_background: https://img.mcfywb.top/www/equipment/vlcsnap-2026-04-30-15h12m44s608.png
+  top_background: https://img.mcfywb.top/www/equipment/vlcsnap-2026-07-02-00h34m19s969.jpg
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
@@ -26,7 +26,7 @@
       equipment_list:
         - name: vivo TWS 3i
           specification: 墨蓝
-          description: 性价比不高，单纯因为便宜，以及是vivo的。
+          description: 续航还行，够我听大半天。性价比不高，单纯因为便宜，以及是vivo的。
           image: https://img.mcfywb.top/www/equipment/10009874_1728465813651_1080x1080.png
           link: https://shop.vivo.com.cn/product/10009874
         - name: vivo WATCH 3
@@ -44,12 +44,12 @@
           link: https://shop.vivo.com.cn/product/10689?skuId=118459
         - name: VALKYRIE M1
           specification: 8K / MERLIN
-          description: 2024年暑假在ChinaJoy的AMD展台参加活动抽到的。AMD YES!
+          description: 2024年暑假在上海ChinaJoy的AMD展台参加活动抽到的。免费的要什么自行车。AMD YES!
           image: https://img.mcfywb.top/www/equipment/64a5d03a63a853ce.jpg.avif
           link: https://item.jd.com/10093007487050.html
         - name: AULA F87 Pro
           specification: 落日海岸
-          description: 高中的好兄弟送我的18岁生日礼物。但是我用不习惯机械键盘的手感，所以一直放着吃灰。
+          description: 之前的一个朋友送我的18岁生日礼物。但是我用不习惯机械键盘的手感，所以一直放着吃灰。
           image: https://img.mcfywb.top/www/equipment/vOK1775032005HridVv.jpg
           link: https://www.aulacn.com/index/index/product?goods_id=96
     - title: 以前的设备
@@ -57,46 +57,46 @@
       equipment_list:
         - name: Lenovo G40-45
           specification: E1-6010 / 4G+512G
-          description: 2014年买的，不知道哪年电池坏了，必须插电用。2025年2月家里装修翻出来卖废品，内存条、机械硬盘和无线网卡被我留下作纪念。
+          description: 不知道哪年电池坏了，必须插电用。2025年2月家里装修翻出来卖了。内存条、机械硬盘和无线网卡被我留下作纪念。
           image: https://img.mcfywb.top/www/equipment/3.jpg
           link: https://detail.zol.com.cn/notebook/index381266.shtml
         - name: 小新-15 2020(Intel平台：IIL版)
           specification: i5-1035G1+MX350 / 8G+512G / 银色
-          description: 2020年国庆买的，这一代是联想小新最后一代有独显的轻薄本，MX350相当于GTX1060的性能也够我轻度游戏了，现在给我妈妈办公用。
+          description: 这一代是联想小新最后一代有独显的轻薄本，MX350的性能也够我当时打游戏了，现在给我妈妈办公用。
           image: https://img.mcfywb.top/www/equipment/20200511112124711555481853.jpg
           link: https://item.lenovo.com.cn/product/1007252.html
         - name: Lenovo A3860
           specification: 联发科 MT6735P / 1G+8G
-          description: 2015年充话费送的手机，一直用到2019年。
+          description: 充话费送的手机，唯一优点是电池是可拆卸的。
           image: https://img.mcfywb.top/www/equipment/ceSKVkACQfWAw.jpg
           link: https://item.lenovo.com.cn/product/51693.html
         - name: vivo V3
           specification: 骁龙616 / 3G+16G / 香槟金
-          description: 我妈妈在2016年买的，2019年给我用。非常喜欢这种小屏的手感，可惜现在见不到了。2020年因为电池发烫原因扔掉了。
+          description: 2020年疫情时期我上网课用的手机。非常喜欢这种小屏的手感，可惜现在见不到了。
           image: https://img.mcfywb.top/www/equipment/4069_1465799043907_530x530.png
           link: https://shop.vivo.com.cn/product/9920
         - name: vivo Y3
           specification: 联发科 MT6765 / 4G+64G / 暗夜蓝
-          description: 2020年暑假换的。千元机，只用了一年，比较喜欢这种背面的指纹解锁设计。
+          description: 千元机，只用了一年。比较喜欢这种背面的指纹解锁设计。
           image: https://img.mcfywb.top/www/equipment/10005906_1608877239014_1080x1080.png
           link: https://www.vivo.com.cn/vivo/y3
         - name: vivo S9
           specification: 天玑1100 / 8G+256G / 子夜蓝
-          description: 初中升高中换的。高一上学期偷玩被收了，后面一直在当游戏机用。续航和拍照都可以。可惜并没有作为主力机长时间用，现在当备用机吃灰。
+          description: 续航和拍照都可以。可惜并没有作为主力机长时间用，现在当备用机吃灰。
           image: https://img.mcfywb.top/www/equipment/10006277_1619365761492_1080x1080.png
           link: https://www.vivo.com.cn/vivo/s9
         - name: iQOO Z5x
           specification: 天玑900 / 8G+256G / 雾海白
-          description: vivo S9被收后用的手机。高二上学期被收过。后面一直作为主力机用。续航很好，侧边指纹也很舒服，非常耐用。缺点就是拍照太糊了。
+          description: 高中时一直作为主力机用。续航很好，侧边指纹也很舒服，非常耐用。缺点就是拍照不行，非常糊。
           image: https://img.mcfywb.top/www/equipment/10006909_1634538978254_1080x1080.png
           link: https://www.vivo.com.cn/vivo/iqooz5x
         - name: vivo TWS Air
           specification: 元气白
-          description: 高二合格考的时候买的耳机，一直用到大一寒假。跟朋友出去打台球忘在了店里，后面再去找就没了。
+          description: 续航一般，音质平平无奇。
           image: https://img.mcfywb.top/www/equipment/10007427_1652764769221_1080x1080.png
           link: https://www.vivo.com.cn/vivo/twsair
         - name: iQOO TWS 1e
           specification: 星珠黄
-          description: 这个耳机只用了一个月，2025年清明假与朋友看电影时落在电影院也找不到了。（os：我真牛逼，连续两个月掉了两个耳机）
+          description: 100出头有降噪功能的耳机，个人用着降噪的耳压比较大。
           image: https://img.mcfywb.top/www/equipment/10009286_1702631065572_1080x1080.png
           link: https://shop.vivo.com.cn/product/10009286
