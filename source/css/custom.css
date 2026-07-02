@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Font';
-    src: url("https://cdn.cbd.int/mcfywb-top-font@1.0.0/font.woff2") format("woff2");
+    src: url("https://cdn.mcfywb.top/mcfywb-top-font/font.woff2") format("woff2");
 }
 body {
     cursor: url('../cursor/default.png'), auto;

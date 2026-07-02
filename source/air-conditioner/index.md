@@ -16,4 +16,4 @@ top_img: false
 </style>
 
 <div id="air-conditioner-vue"></div>
-<script defer data-pjax src='https://cdn.cbd.int/mcfywb-air-conditioner@1.0.2/index.3f125bc6.js'></script>
+<script defer data-pjax src='https://cdn.mcfywb.top/mcfywb-air-conditioner/index.3f125bc6.js'></script>
