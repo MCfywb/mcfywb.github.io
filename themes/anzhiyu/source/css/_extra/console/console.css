@@ -488,7 +488,7 @@ body:has(#console.show)
   .aplayer-controller
   .aplayer-time
   .aplayer-icon.aplayer-icon-menu {
-  display: inline;
+  display: none;
 }
 body:has(#console.show)
   #nav-music
@@ -520,10 +520,12 @@ body:has(#console.show) #nav-music .aplayer .aplayer-lrc .aplayer-lrc-contents {
   margin-top: 80px;
 }
 
+
 @media screen and (min-width: 1200px) and (max-width: 1450px) {
   body:has(#console.show) #nav-music {
     left: 45%;
   }
+  
 }
 
 /* 赞赏部分控制台css */
