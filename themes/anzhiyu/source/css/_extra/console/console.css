@@ -341,7 +341,10 @@ body:has(#console.show) .aplayer.aplayer-arrow .aplayer-icon-loop,
   display: inline;
 }
 body:has(#console.show) .aplayer-volume-wrap {
-  display: none;
+  display: inline;
+}
+body:has(#console.show) .aplayer .aplayer-icon-order {
+  display: inline;
 }
 body:has(#console.show) #nav-music {
   z-index: 10000;
@@ -485,7 +488,7 @@ body:has(#console.show)
   .aplayer-controller
   .aplayer-time
   .aplayer-icon.aplayer-icon-menu {
-  display: none;
+  display: inline;
 }
 body:has(#console.show)
   #nav-music

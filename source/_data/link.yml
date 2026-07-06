@@ -1,6 +1,5 @@
 - class_name: 好友
   flink_style: telescopic
-  hundredSuffix: ""
   link_list:
     - name: TheBUGMUXI
       link: https://www.thebugmuxi.xyz/
@@ -10,7 +9,6 @@
       recommend: true
 - class_name: 推荐
   flink_style: telescopic
-  hundredSuffix: ""
   link_list:
     - name: 安和鱼
       link: https://blog.anheyu.com/

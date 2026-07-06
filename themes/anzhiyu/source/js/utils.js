@@ -878,7 +878,7 @@ const anzhiyu = {
     const anMusicSwitchingBtn = anMusicPage.querySelector("#anMusicSwitching");
     const metingAplayer = anMusicPage.querySelector("meting-js").aplayer;
     //初始化音量
-    metingAplayer.volume(0.8, true);
+    metingAplayer.volume(0.4, true);
     metingAplayer.on("loadeddata", function () {
       anzhiyu.changeMusicBg();
     });
