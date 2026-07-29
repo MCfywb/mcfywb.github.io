@@ -131,20 +131,24 @@ envelope_comment:
 # https://github.com/HCLonely/hexo-bilibili-bangumi
 bangumi: # 追番设置
   enable: true
-  source: bili
+  source: 'bili'
+  path: 'bangumis/index.html'
   vmid: 432245733
-  title: "追番列表"
-  quote: "生命不息，追番不止！"
-  show: 2
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  theme: 'auto'
+  show: 0
   lazyload: true
   webp: true
   progress: true
   progressBar: true
-  pagination: false
-  extra_options:
-    aside: true
+  pagination: true
+  extra_options: 
     top_img: false
+    aside: true
     comments: true
+    lazyload: 
+      enable: false
 
 # APlayer
 # https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md

@@ -99,6 +99,9 @@
     music_bg: https://y.qq.com/music/photo_new/T001R300x300M00000412Mtb14Xfr9_8.jpg
     music_link: /music
   reward_list:
+    - name: 吾乃常人也
+      amount: 10.00
+      datatime: 2026-07-21
     - name: 长期素食
       amount: 0.01
       datatime: 2026-07-05
