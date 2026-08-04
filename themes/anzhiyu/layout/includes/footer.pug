@@ -5,7 +5,7 @@
     - let rightInfo = theme.footer.socialBar.right
     #footer_deal
       each item, index in leftInfo
-        a.deal_link(href=url_for(item.link) title=item.title)
+        a.deal_link(href=url_for(item.link) title=item.title target="_blank")
           if (item.icon.startsWith("fa"))
             i(class=`${item.icon}`)
           else if (item.icon.startsWith("icon"))
@@ -15,7 +15,7 @@
             i.anzhiyufont(class=`${item.icon}`)
       img.footer_mini_logo(title=_p('footer.back_to_top'), alt=_p('footer.back_to_top') onclick="anzhiyu.scrollToDest(0, 500)", src=centerImg, size="50px")
       each item, index in rightInfo
-        a.deal_link(href=url_for(item.link) title=item.title)
+        a.deal_link(href=url_for(item.link) title=item.title target="_blank")
           if (item.icon.startsWith("fa"))
             i(class=`${item.icon}`)
           else if (item.icon.startsWith("icon"))

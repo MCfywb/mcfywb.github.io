@@ -480,8 +480,8 @@ footer:
         shields: /img/footer/Creative%20Commons-CC%20BY--NC--SA%204.svg
         message: 本站采用知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版进行许可
   socialBar:
-    enable: false
-    centerImg:
+    enable: true
+    centerImg: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
     left:
        - title: 电子邮箱
          link: mailto:mcfywb@163.com
