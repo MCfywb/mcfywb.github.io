@@ -1,25 +1,25 @@
 menu:
    文章:
-     隧道: /archives/ || anzhiyu-icon-box-archive
-     分类: /categories/ || anzhiyu-icon-shapes
-     标签: /tags/ || anzhiyu-icon-tags
+     隧道: /archives/ || fa-solid fa-box-archive
+     分类: /categories/ || fa-solid fa-shapes
+     标签: /tags/ || fa-solid fa-tags
 
    友链:
-     友人帐: /link/ || anzhiyu-icon-link
-  #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
-     留言板: /comments/ || anzhiyu-icon-envelope
+     友人帐: /link/ || fa-solid fa-link
+  #   朋友圈: /fcircle/ || fa-brands fa-artstation
+     留言板: /comments/ || fa-solid fa-envelope
 
    我的:
-     音乐馆: /music/ || anzhiyu-icon-music
-     追番页: /bangumis/ || anzhiyu-icon-bilibili
-     相册集: /album/ || anzhiyu-icon-images
-     小空调: /air-conditioner/ || anzhiyu-icon-fan
+     音乐馆: /music/ || fa-solid fa-music
+     追番页: /bangumis/ || fa-brands fa-bilibili
+     相册集: /album/ || fa-solid fa-images
+     小空调: /air-conditioner/ || fa-solid fa-fan
 
    关于:
-     关于本人: /about/ || anzhiyu-icon-paper-plane
-     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
-     我的装备: /equipment/ || anzhiyu-icon-dice-d20
+     关于本人: /about/ || fa-solid fa-paper-plane
+     闲言碎语: /essay/ || fa-solid fa-lightbulb
+     随便逛逛: javascript:toRandomPost() || fa-solid fa-shoe-prints
+     我的装备: /equipment/ || fa-solid fa-dice-d20
 
 # nav相关配置
 nav:
@@ -483,31 +483,31 @@ footer:
     enable: false
     centerImg:
     left:
-      # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
-      #   icon: anzhiyu-icon-envelope
-      # - title: 微博
-      #   link: https://weibo.com/u/6378063631
-      #   icon: anzhiyu-icon-weibo
-      # - title: facebook
-      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-      #   icon: anzhiyu-icon-facebook1
-      # - title: RSS
-      #   link: atom.xml
-      #   icon: anzhiyu-icon-rss
+       - title: 电子邮箱
+         link: mailto:mcfywb@163.com
+         icon: fa-solid fa-envelope
+       - title: QQ
+         link: /img/footer/qq.png
+         icon: fa-brands fa-qq
+       - title: 微信
+         link: /img/footer/weixin.png
+         icon: fa-brands fa-weixin
+       - title: 哔哩哔哩
+         link: https://space.bilibili.com/432245733
+         icon: fa-brands fa-bilibili
     right:
-      # - title: Github
-      #   link: https://github.com/anzhiyu-c
-      #   icon: anzhiyu-icon-github
-      # - title: Bilibili
-      #   link: https://space.bilibili.com/372204786
-      #   icon: anzhiyu-icon-bilibili
-      # - title: 抖音
-      #   link: https://v.douyin.com/DwCpMEy/
-      #   icon: anzhiyu-icon-tiktok
-      # - title: CC
-      #   link: /copyright
-      #   icon: anzhiyu-icon-copyright-line
+       - title: Facebook
+         link: https://www.facebook.com/MCfywb
+         icon: fa-brands fa-facebook
+       - title: X
+         link: https://x.com/MCfywb
+         icon: fa-brands fa-x-twitter
+       - title: Telegram
+         link: https://t.me/MCfywb
+         icon: fa-brands fa-telegram
+       - title: Github
+         link: https://github.com/MCfywb
+         icon: fa-brands fa-github
   list:
     enable: false
     randomFriends: 3
@@ -1082,17 +1082,17 @@ home_top:
       path: /categories/代码开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
-      icon: anzhiyu-icon-dove
+      icon: fa-solid fa-dove
     - name: 大学
       path: /categories/大学生活/
       shadow: var(--anzhiyu-shadow-red)
       class: red
-      icon: anzhiyu-icon-fire
+      icon: fa-solid fa-fire
     - name: 生活
       path: /categories/生活日常/
       shadow: var(--anzhiyu-shadow-green)
       class: green
-      icon: anzhiyu-icon-book
+      icon: fa-solid fa-book
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: true
@@ -1275,7 +1275,6 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
-    - <script src="/js/custom.js"></script>
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
 
   bottom:
