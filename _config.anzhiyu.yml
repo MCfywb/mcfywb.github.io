@@ -269,10 +269,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    - img: /img/reward/wechat.png
+    - img: /img/reward/wechat.webp
       link:
       text: 微信
-    - img: /img/reward/alipay.jpg
+    - img: /img/reward/alipay.webp
       link:
       text: 支付宝
 
@@ -487,10 +487,10 @@ footer:
          link: mailto:mcfywb@163.com
          icon: fa-solid fa-envelope
        - title: QQ
-         link: /img/footer/qq.png
+         link: /img/footer/qq.webp
          icon: fa-brands fa-qq
        - title: 微信
-         link: /img/footer/weixin.png
+         link: /img/footer/weixin.webp
          icon: fa-brands fa-weixin
        - title: 哔哩哔哩
          link: https://space.bilibili.com/432245733
