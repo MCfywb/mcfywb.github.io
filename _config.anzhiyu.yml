@@ -29,6 +29,9 @@ nav:
   menu:
     - title: 其它项目
       item:
+        - name: 酸橙照片生成器
+          link: https://orange.mcfywb.top
+          icon: https://orange.mcfywb.top/orange-angelina.svg
         - name: 网盘
           link: https://file.mcfywb.top
           icon: /img/favicon.ico
@@ -168,7 +171,7 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: "background: url(https://img.mcfywb.top/www/QQ%E6%88%AA%E5%9B%BE20230309232951.jpg) top / cover no-repeat" # "background: url() top / cover no-repeat"
+index_img: "background: url(https://img.mcfywb.top/mxzab9vh50qd1.webp) top / cover no-repeat" # "background: url() top / cover no-repeat"
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: false
@@ -184,14 +187,15 @@ cover:
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
     # - /img/default_cover.jpg
-    - https://img.mcfywb.top/www/xingchen_555.jpg
-    - https://img.mcfywb.top/www/86695978_p0.jpg
-    - https://img.mcfywb.top/www/boqijiang.jpg
+    - https://img.mcfywb.top/131872012_p0.webp
+    - https://img.mcfywb.top/86695978_p0.webp
+    - https://img.mcfywb.top/boqijiang.webp
+    - https://img.mcfywb.top/sana.webp
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:
   flink: /img/friend_404.gif
-  post_page: /img/404.jpg
+  post_page: /img/404.webp
 
 # A simple 404 page
 error_404:
