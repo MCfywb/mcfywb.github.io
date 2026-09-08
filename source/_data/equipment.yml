@@ -1,7 +1,7 @@
 - class_name: 好物
   description: 实物装备推荐
   tip: 跟 MC风月无边 一起享受科技带来的乐趣
-  top_background: https://img.mcfywb.top/www/equipment/vlcsnap-2026-07-02-00h34m19s969.jpg
+  top_background: https://img.mcfywb.top/equipment/vlcsnap-2026-09-08-11h27m28s406.webp
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
@@ -22,7 +22,6 @@
           image: https://img.mcfywb.top/www/equipment/10009716_1715757334068_1080x1080.png
           link: https://www.vivo.com.cn/vivo/iqooneo9spro
     - title: 可穿戴设备
-      description: 就是耳机和手表
       equipment_list:
         - name: vivo TWS 3i
           specification: 墨蓝
@@ -35,7 +34,6 @@
           image: https://img.mcfywb.top/www/equipment/10009063_1699615142960_1080x1080.png
           link: https://www.vivo.com.cn/vivo/vivowatch3
     - title: 外设
-      description: 打游戏用的设备
       equipment_list:
         - name: vivo XE160
           specification: 3.5mm接口
