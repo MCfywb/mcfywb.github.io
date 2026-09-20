@@ -2,12 +2,13 @@
     font-family: 'Font';
     src: url("https://cdn.mcfywb.top/mcfywb-top-font/font.woff2") format("woff2");
 }
-body {
-    cursor: url('../cursor/default.png'), auto;
+*, *::before, *::after {
+  cursor: url('../cursor/default.png'), auto !important;
 }
-a, button, i, span, img, time {
-    cursor: url('../cursor/pointer.png'), pointer;
+a, a *, button, button *, [onclick], [role="button"],
+label, summary, i, span, img, time {
+  cursor: url('../cursor/pointer.png'), pointer !important;
 }
-input, textarea {
-    cursor: url('../cursor/text.png'), text;
+input, textarea, [contenteditable="true"] {
+  cursor: url('../cursor/text.png'), text !important;
 }
