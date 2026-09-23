@@ -99,6 +99,9 @@
     music_bg: https://img.mcfywb.top/about/channels4_profile.webp
     music_link: /music
   reward_list:
+    - name: 情绪
+      amount: 0.48
+      datatime: 2026-09-21
     - name: 言午木心
       amount: 10.00
       datatime: 2026-08-14
