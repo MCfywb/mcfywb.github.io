@@ -2,13 +2,63 @@
     font-family: 'Font';
     src: url("https://cdn.mcfywb.top/mcfywb-top-font/font.woff2") format("woff2");
 }
-*, *::before, *::after {
-  cursor: url('../cursor/default.png'), auto !important;
+
+/* ========== 全局自定义鼠标光标（全站强制覆盖） ========== */
+/* 说明：
+   - 图片 32×32，路径 /cursor/xxx.png
+   - "0 0" / "16 16" 为热点坐标，偏移可改
+   - 用 * { ... !important } 强制覆盖主题自带的所有 cursor 规则，
+     保证全站任何位置都不会回退到系统光标
+*/
+
+/* 1) 默认光标：全站每个元素强制应用自定义默认光标 */
+* {
+  cursor: url("/cursor/default.png") 0 0, auto !important;
 }
-a, a *, button, button *, [onclick], [role="button"],
-label, summary, i, span, img, time {
-  cursor: url('../cursor/pointer.png'), pointer !important;
+
+/* 2) 可交互元素：覆盖为自定义指针 */
+a,
+a *,
+button,
+button *,
+input,
+label,
+summary,
+select,
+[role="button"],
+[role="link"],
+[onclick],
+[href],
+.pointer,
+.clickable {
+  cursor: url("/cursor/pointer.png") 0 0, pointer !important;
 }
-input, textarea, [contenteditable="true"] {
-  cursor: url('../cursor/text.png'), text !important;
+
+/* 3) 文本输入 / 编辑区域：用文本光标 */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="url"],
+input[type="number"],
+input[type="tel"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+textarea,
+[contenteditable="true"] {
+  cursor: url("/cursor/text.png") 16 16, text !important;
+}
+
+/* 4) 主题自带特殊光标：AI 摘要跟随光标，单独保留其默认处理 */
+.ai-cursor {
+  cursor: auto !important;
+}
+
+/* 5) 禁用态：保留原生 not-allowed（放最后以优先） */
+[disabled],
+[aria-disabled="true"] {
+  cursor: not-allowed !important;
 }
