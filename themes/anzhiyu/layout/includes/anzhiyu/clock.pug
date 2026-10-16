@@ -1,29 +1,83 @@
-#he-plugin-simple
-script.
-  var WIDGET = {
-    "CONFIG": {
-      "modules": "0124",
-      "background": "2",
-      "tmpColor": "FFFFFF",
-      "tmpSize": "16",
-      "cityColor": "FFFFFF",
-      "citySize": "16",
-      "aqiColor": "E8D87B",
-      "aqiSize": "16",
-      "weatherIconSize": "24",
-      "alertIconSize": "18",
-      "padding": "10px 10px 10px 10px",
-      "shadow": "0",
-      "language": "auto",
-      "borderRadius": "20",
-      "fixed": "true",
-      "vertical": "top",
-      "horizontal": "left",
-      "left": "20",
-      "top": "7.1",
-      "key": "df245676fb434a0691ead1c63341cd94"
-    }
-  }
+#nav-clock.nav-clock
+  span.nav-clock-loading 天气加载中…
 
-link(rel="stylesheet", href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0")
-script(src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0")
+style.
+  .nav-clock{
+    display:inline-flex;align-items:center;gap:4px;
+    margin-left:14px;font-size:14px;line-height:1;
+    color:#fff;white-space:nowrap;cursor:default;
+    text-shadow:0 1px 2px rgba(0,0,0,.25);
+  }
+  .nav-clock-icon{font-size:15px;}
+  .nav-clock-text{font-weight:500;}
+  @media (max-width:768px){ .nav-clock{display:none;} }
+
+script.
+  (function () {
+    // ===== 可配置项 =====
+    // 访客拒绝定位 / 处于 http 本地预览时，回退到这个固定城市
+    // 经纬度可在 https://geocoding-api.open-meteo.com/v1/search?name=城市名 查询后填入
+    var FALLBACK = { lat: 33.7722, lon: 120.2618, name: 'Hede' };
+    var CACHE_KEY = 'anzhiyu_nav_weather';
+    var CACHE_TTL = 30 * 60 * 1000; // 30 分钟缓存，避免频繁弹定位 / 调接口
+
+    var el = document.getElementById('nav-clock');
+    if (!el) return;
+
+    // WMO 天气代码 -> [图标, 中文描述]
+    var WMO = {
+      0:['☀️','晴'],1:['🌤️','晴间多云'],2:['⛅','多云'],3:['☁️','阴'],
+      45:['🌫️','雾'],48:['🌫️','雾凇'],
+      51:['🌦️','毛毛雨'],53:['🌦️','小雨'],55:['🌧️','中雨'],
+      56:['🌧️','冻雨'],57:['🌧️','冻雨'],
+      61:['🌧️','小雨'],63:['🌧️','中雨'],65:['🌧️','大雨'],
+      66:['🌧️','冻雨'],67:['🌧️','冻雨'],
+      71:['🌨️','小雪'],73:['🌨️','中雪'],75:['🌨️','大雪'],77:['🌨️','雪粒'],
+      80:['🌦️','阵雨'],81:['🌦️','阵雨'],82:['⛈️','强阵雨'],
+      85:['🌨️','阵雪'],86:['🌨️','强阵雪'],
+      95:['⛈️','雷阵雨'],96:['⛈️','雷阵雨伴雹'],99:['⛈️','强雷暴伴雹']
+    };
+
+    function render(temp, code, name) {
+      var w = WMO[code] || ['🌡️','未知'];
+      el.innerHTML = '<span class="nav-clock-icon">' + w[0] + '</span>' +
+        '<span class="nav-clock-text">' + Math.round(temp) + '° ' + w[1] +
+        (name ? ' · ' + name : '') + '</span>';
+    }
+    function renderError(msg) {
+      el.innerHTML = '<span class="nav-clock-text" title="' + msg + '">🌡️ --°</span>';
+    }
+
+    function fetchWeather(lat, lon, name) {
+      var url = 'https://api.open-meteo.com/v1/forecast?latitude=' + lat +
+        '&longitude=' + lon + '&current=temperature_2m,weather_code&timezone=auto';
+      fetch(url).then(function (r) { return r.json(); }).then(function (d) {
+        if (d && d.current) {
+          render(d.current.temperature_2m, d.current.weather_code, name);
+          try {
+            localStorage.setItem(CACHE_KEY, JSON.stringify({
+              t: Date.now(), temp: d.current.temperature_2m,
+              code: d.current.weather_code, name: name
+            }));
+          } catch (e) {}
+        } else { renderError('数据缺失'); }
+      }).catch(function (e) { renderError(e.message || '网络错误'); });
+    }
+
+    // 先读缓存，命中且未过期则直接渲染，不再弹定位
+    try {
+      var c = JSON.parse(localStorage.getItem(CACHE_KEY) || 'null');
+      if (c && Date.now() - c.t < CACHE_TTL) { render(c.temp, c.code, c.name); return; }
+    } catch (e) {}
+
+    // https 下尝试浏览器定位；http 或被拒绝时回退到固定城市
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        function (p) { fetchWeather(p.coords.latitude, p.coords.longitude, ''); },
+        function () { fetchWeather(FALLBACK.lat, FALLBACK.lon, FALLBACK.name); },
+        { timeout: 8000, maximumAge: CACHE_TTL }
+      );
+    } else {
+      fetchWeather(FALLBACK.lat, FALLBACK.lon, FALLBACK.name);
+    }
+  })();

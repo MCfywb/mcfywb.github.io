@@ -25,7 +25,7 @@ menu:
 nav:
   enable: true
   travelling: false
-  clock: false
+  clock: true
   menu:
     - title: 其它项目
       item:
@@ -477,12 +477,15 @@ footer:
       - link: https://www.dogecloud.com
         shields: /img/footer/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-8AC4FC.svg
         message: 多吉云为本站提供CDN加速服务
-      - link: https://github.com/MCfywb/mcfywb.github.io
-        shields: /img/footer/Github-Source-181717.svg
-        message: 本站托管于Github
       - link: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
         shields: /img/footer/Creative%20Commons-CC%20BY--NC--SA%204.svg
         message: 本站采用知识共享署名—非商业性使用—相同方式共享 4.0 协议国际版进行许可
+      - link: https://beian.miit.gov.cn
+        shields: /img/footer/%E8%8B%8FICP%E5%A4%872026008812%E5%8F%B7-FFFFFF.svg
+        message: 苏ICP备2026008812号
+      - link: https://beian.mps.gov.cn/#/query/webSearch?code=32092402000449
+        shields: /img/footer/%E8%8B%8F%E5%85%AC%E7%BD%91%E5%AE%89%E5%A4%8732092402000449%E5%8F%B7-1A1A1A.svg
+        message: 苏公网安备32092402000449号
   socialBar:
     enable: true
     centerImg: https://q.qlogo.cn/headimg_dl?dst_uin=3109247989&spec=640&img_type=jpg
@@ -603,7 +606,7 @@ cloudflare_analytics:
 
 # Microsoft Clarity
 # https://clarity.microsoft.com/
-microsoft_clarity: wyri205ju7
+microsoft_clarity: wyrfo4z6xx
 
 # Advertisement
 # --------------------------------------
@@ -835,7 +838,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">软件和硬件</b>相关的问题和看法，还有<b style="color:#fff">游戏</b>和<b style="color:#fff">日常</b>方面的分享。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
+    description:  <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">这有关于<b style="color:#fff">软件和硬件</b>相关的问题和看法，还有<b style="color:#fff">游戏</b>和<b style="color:#fff">日常</b>方面的分享。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">相信你可以在这里找到对你有用的<b style="color:#fff">知识</b>和<b style="color:#fff">教程</b>。</div> # 默认为站点描述
     name_link: /about
 
   card_announcement:
@@ -1080,7 +1083,7 @@ home_top:
   timemode: date #date/updated
   title: 所求皆所愿
   subTitle: 所行皆坦途
-  siteText: mcfywb.github.io
+  siteText: mcfywb.top
   category:
     - name: 代码
       path: /categories/代码开发/
@@ -1131,8 +1134,8 @@ console:
 # 51a统计配置
 LA:
   enable: true
-  ck: 3QDJAdGR8g7SBYDt
-  LingQueMonitorID: 3QDITB3oRhigJdx9
+  ck: 3QDI8ZTZfPoUVmhr
+  LingQueMonitorID: 3QDIM33Gt4nGL7nR
 
 # Umami 统计配置（关于页面访问统计卡片）
 # 文档: https://umami.is/docs/api
@@ -1171,7 +1174,7 @@ nav_music:
   id: 9678439021
   server: tencent
   volume: 0.4 # 默认音量
-  all_playlist: https://y.qq.com/n/ryqq_v2/playlist/9678439021
+  all_playlist: https://y.qq.com/n/ryqq_v2/playlist/9678439021s
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
 music_page_default: nav_music
@@ -1193,7 +1196,7 @@ ptool:
 # 欢迎语配置
 greetingBox:
   enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
-  default: 晚上好👋
+  default: 你好👋
   list:
      - greeting: 晚安😴, 睡个好觉～
        startTime: 0
@@ -1279,6 +1282,7 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    - <script src="/js/custom.js"></script>
     - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
 
   bottom:
