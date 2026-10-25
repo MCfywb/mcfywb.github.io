@@ -99,6 +99,9 @@
     music_bg: https://img.mcfywb.top/about/channels4_profile.webp
     music_link: /music
   reward_list:
+    - name: Viper和秋秋
+      amount: 20.00
+      datatime: 2026-10-26
     - name: 秋秋
       amount: 6.60
       datatime: 2026-10-08
